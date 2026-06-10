@@ -9,7 +9,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/projects")
-@CrossOrigin(origins = "http://cityscape-api-production.up.railway.app")
+@CrossOrigin(origins = "\"https://cityscape-ui.vercel.app")
 public class ProjectController {
 
     @Autowired

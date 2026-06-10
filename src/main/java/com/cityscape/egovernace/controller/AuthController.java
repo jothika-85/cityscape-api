@@ -9,7 +9,7 @@ import com.cityscape.egovernace.repository.UserRepository;
 
 @RestController
 @RequestMapping("/api/auth")
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "\"https://cityscape-ui.vercel.app")
 public class AuthController {
 
     @Autowired
