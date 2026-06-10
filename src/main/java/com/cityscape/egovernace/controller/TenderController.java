@@ -7,9 +7,9 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
+@CrossOrigin(origins = "https://cityscape-ui.vercel.app") 
 @RestController
-@RequestMapping("/api/bids")
-@CrossOrigin(origins = "\"https://cityscape-ui.vercel.app") 
+@RequestMapping("/api/bids") 
 public class TenderController {
 
     @Autowired

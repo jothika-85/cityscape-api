@@ -9,7 +9,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/chat")
-@CrossOrigin(origins = "\"https://cityscape-ui.vercel.app")
+@CrossOrigin(origins = "https://cityscape-ui.vercel.app")
 public class ChatController {
 
     @Autowired
