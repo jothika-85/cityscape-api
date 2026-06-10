@@ -9,7 +9,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/bids")
-@CrossOrigin(origins = "http://localhost:3000") 
+@CrossOrigin(origins = "http://cityscape-api-production.up.railway.app") 
 public class TenderController {
 
     @Autowired

@@ -10,20 +10,20 @@ public class Message {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    private String sender;   // "Admin" or Contractor Name
-    private String receiver; // Contractor Name or "Admin"
+    private String sender;  
+    private String receiver; 
     
     @Column(columnDefinition = "TEXT")
     private String content;
 
     private LocalDateTime timestamp;
 
-    // Default Constructor
+   
     public Message() {
         this.timestamp = LocalDateTime.now();
     }
 
-    // Getters and Setters
+   
     public Long getId() { return id; }
     public void setId(Long id) { this.id = id; }
 

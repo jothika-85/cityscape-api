@@ -5,7 +5,7 @@ import java.time.LocalDateTime;
 
 @Entity
 @Table(name = "projects")
-@Data // Lombok automatically generates getters/setters
+@Data 
 
 public class Project {
 
@@ -15,7 +15,7 @@ public class Project {
 	    @GeneratedValue(strategy = GenerationType.IDENTITY)
 	    private Long id;
 
-	    private String projectId; // e.g., PRJ-101
+	    private String projectId; 
 	    private String title;
 	    
 	    @Column(columnDefinition = "TEXT")
@@ -94,7 +94,7 @@ public class Project {
 			this.historyLog = historyLog;
 		}
 
-		private String status; // Tender Open, In Progress, Completed
+		private String status; 
 	    
 	    private String assignedContractor;
 	    private LocalDateTime createdDate;

@@ -13,9 +13,9 @@ public class TenderBid {
     private String projectId;
     private String contractorName;
     private Double bidAmount;
-    private String status; // "Applied", "Approved", "Rejected"
+    private String status; 
 
-    // --- Constructors ---
+    
     public TenderBid() {}
 
     public TenderBid(String projectId, String contractorName, Double bidAmount, String status) {
@@ -25,7 +25,7 @@ public class TenderBid {
         this.status = status;
     }
 
-    // --- Getters and Setters ---
+   
     public Long getId() { return id; }
     public void setId(Long id) { this.id = id; }
 

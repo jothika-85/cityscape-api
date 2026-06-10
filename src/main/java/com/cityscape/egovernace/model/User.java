@@ -14,12 +14,12 @@ public class User {
     @Column(unique = true)
     private String username;
     private String password;
-    private String role; // OFFICIAL, CONTRACTOR, or PUBLIC
+    private String role; 
     private String companyName;
     private String mobile;
     private String aadhaar;
 
-    // Getters and Setters for all fields
+    
     public Long getId() { return id; }
     public void setId(Long id) { this.id = id; }
 
